@@ -33,13 +33,13 @@ function App() {
           {
             id: 1,
             src: quote,
-            caption: "Fact",
+            caption: "Fact isn't it ?",
             type:"0"
           },
           {
             id: 2,
-            src: "Some times you forget how awesom you are, so this is your reminder",
-            caption: "Truth",
+            src: "Gaining prominence rapidly, blockchain technology is counted among the hot trends that businesses must keep an eye on to stay ahead. Everyone is eager to learn about this new trend as it is bringing about significant advancements and leading to new opportunities in every industry, whether it is banking, healthcare, cyber security, advertising, or finance.If you are familiar with the term ‘cryptocurrency,’ you might know that blockchain technology lies at the heart of Bitcoin. The best thing about this tech trend is that it cannot be hacked or changed, and this digital ledger is used to store transaction records in a verifiable and distinguishable manner. Besides providing a building foundation for immutable ledgers, blockchain has several marketable career opportunities too. Let’s understand the applications and opportunities of blockchain technology in the upcoming years.",
+            caption: "My opinion on the future of Blockchain technology",
             type:"1"
           },
 
@@ -94,9 +94,9 @@ function App() {
         </div >
         <div className="  flex flex-col p-2 ">
           {/* name of the user */}
-          <p className="text-sm font-bold">Debabrata Halder</p>
+          <p className="text-lg font-bold ml-7">Debabrata Halder</p>
           {/* bio */}
-          <p className="text-sm "> This is my blockchain page</p>
+          <p className="text-sm ml-7 "> I am a programmer with a special interest in Blockchain development</p>
           <div className="flex flex-col items-center m-2">
             {/* follow button */}
             
@@ -130,14 +130,14 @@ function App() {
         <div className=" flex flex-col  items-center">
           <div className=" flex flex-row items-center p-2  w-full ">
             <img className=" w-auto h-8 rounded-full m-1" src="heroImage.png" alt="Italian Trulli border border-sky-500"/>
-            <p className="m-1 ">Debabrata Halder</p>
+            <p className="m-1  ">Debabrata Halder</p>
           </div>
           <hr class="w-8/12 h-px  bg-gray-800 border-0 "></hr>
           
           <div key={id} className="flex flex-col items-center  w-full">
               {type==="0"
                 ?<img className=" w-auto  " src={src} alt="Italian Trulli"/>
-                :<p className="text-left  p-5">{src}</p>
+                :<p className="text-left lg:w-8/12 p-5">{src}</p>
               }
 
 
