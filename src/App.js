@@ -157,7 +157,7 @@ function App() {
     {/* bottom nav bar  */}
       <div className="flex flex-row items-center justify-between w-full h-14 bg-black p-4 fixed bottom-0 ">
         <div>
-          <img className=" w-8 h-8 rounded-full m-1" src="user1.jpeg" alt="Italian Trulli border border-sky-500"/>
+        <button><img className=" w-8 h-8 rounded-full m-1" src="user1.jpeg" alt="Italian Trulli border border-sky-500"/></button>
         </div>        
         <div className=" ">
           <button className="text-3xl p-3 active:bg-white active:text-black"> <MdOutlineAddComment/></button>
